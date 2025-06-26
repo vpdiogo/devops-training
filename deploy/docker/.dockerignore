@@ -1,0 +1,32 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore test files
+/tests/
+
+# Ignore local environment files
+.env
+*.env
+
+# Ignore Dockerfile and related files
+Dockerfile
+.dockerignore
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore any other local files
+*.log
+*.sqlite3
+
+# Ignore testing and coverage files
+.pytest_cache/
+.coverage
+tests/
+
+*.md
+.github/
